@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Global</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="img/favicons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/favicons/apple.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="preload" href="fonts/poppins/Poppins-Regular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/roboto/Roboto-Regular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  </head>
+  <body class="page-body">
+    <header class="page-header">
+      <ul class="page-header-list">
+          <li class="page-header__item">
+              <a class="page-header__logo" href="index.html">
+                  <img class="page-header__logo-image" src="img/logo.svg" width="40" height="40" alt="Логотип Global">
+              </a>
+          </li>
+          <li class="page-header__item">
+              <a class="page-header__logo-2" href="index.html">
+                <img class="page-header__logo-image" src="img/logo2.svg" width="83" height="38" alt="Логотип Global2">
+              </a>
+          </li>
+      </ul>
+      <nav class="page-nav page-nav--closed page-nav--nojs">
+          <button class="page-nav__toggle" type="button">
+              <span class="visually-hidden">Открыть меню</span>
+          </button>
+          <div class="page-nav__wrapper">
+              <ul class="page-nav__list site-list">
+                <li class="site-list__item site-list__item--active">
+                  <a class="site-list__link" href="index.html">Mobile Top Up</a>
+                </li>
+                <li class="site-list__item">
+                  <a class="site-list__link" href="about.html">About</a>
+                </li>
+                <li class="site-list__item">
+                  <a class="site-list__link" href="rate.html">Rate</a>
+                </li>
+                <li class="site-list__item">
+                  <a class="site-list__link" href="help.html">Help</a>
+                </li>
+              </ul>
+              <ul class="page-nav__list user-list">
+                <li class="user-list__item">
+                  <a class="user-list__list-login" href="">Sign Up</a>
+                </li>
+              </ul>
+            </div>
+      </nav>
+  </header>
+  <main class="main-container">
+    <div class="main-container__wrapper">
+        <h1 class="main-container__slogan">Now Buy Your <br>PIN or <span class="main-container__slogan2">Top Up</span><br> With Bank Transfer</h1>
+        <p class="main-container__description">We Make international calling simple, relible, and cheap basedon your unique calling behavior.</p>
+        <a class="main-container__button" href="">Get Started</a>
+        <div class="main-container-form">
+          <form class="main-container-form__search" action="" method="get">
+            <label for="main-container-form__searching" class="visually-hidden">Email</label>
+            <input name="main-container-form__searching" class="main-container-form__name-searching" pattern="!@#$%^&*()" maxlength="12" minlength="4" placeholder="Where do you want to call?" type="search">
+            <button type="submit" class="main-container-form__submit"><span class="visually-hidden">Поиск</span></button>
+          </form>
+          <p class="main-container_users">45k+ Regular User. <a class="main-container_plan" href="">Price Plan</a></p>
+        </div>
+    </div>
+    <div class="main-container__picture">
+      <h2 class="visually-hidden">Анимация</h2>
+    </div>
+  </main>
+  <script src="js/script.js"></script>
+  </body>
+</html>

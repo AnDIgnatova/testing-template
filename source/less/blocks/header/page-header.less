@@ -1,0 +1,21 @@
+.page-header {
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0 auto;
+  width: 320px;
+  margin-top: 20px;
+  margin-bottom: 0;
+
+  @media (min-width: @desktop-width) {
+    margin: 0 auto;
+    margin-bottom: 121px;
+    width: 1113px;
+    flex-direction: row;
+    padding-top: 31px;
+    margin-top: 0;
+    justify-content: space-between;
+  }
+}
