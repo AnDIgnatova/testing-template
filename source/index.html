@@ -75,7 +75,7 @@
         <div class="main-container-form">
           <form class="main-container-form__search" action="" method="get">
             <label for="main-container-form__searching" class="visually-hidden">Email</label>
-            <input name="main-container-form__searching" class="main-container-form__name-searching" pattern="!@#$%^&*()" maxlength="12" minlength="4" placeholder="Where do you want to call?" type="search">
+            <input name="main-container-form__searching" id="form-searching" class="main-container-form__name-searching" pattern="[a-za-яё0-9]{4,12}" placeholder="Where do you want to call?" type="search">
             <button type="submit" class="main-container-form__submit"><span class="visually-hidden">Поиск</span></button>
           </form>
           <p class="main-container-form__users">45k+ Regular User. <a class="main-container-form__plan" href="">Price Plan</a></p>
@@ -86,5 +86,6 @@
     </div>
   </main>
   <script src="js/script.js"></script>
+  <script src="js/validate.js"></script>
   </body>
 </html>
